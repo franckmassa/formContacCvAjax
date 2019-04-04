@@ -1,0 +1,67 @@
+body{
+    font-family: "Lato", sans-serif;
+    margin: 70px 0;
+    background: #0066d6;
+}
+.divider{
+    width: 100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+#contact-form{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.blue{
+    color: #0066d6;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    /* On met une hauteur au texte pour réserver la place quand le message apparaîtra */
+    height: 25px;    
+}
+#contact-form input[type=submit]{
+    /* 40px en haut, auto pour droite et gauche et 0px en bas */
+    margin: 40px auto 0px; 
+    display: block;
+}
+.button1{
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    /* On ajoute une animation */
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+    background: #333;
+    border-color: #ffa500;
+}
+.thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
